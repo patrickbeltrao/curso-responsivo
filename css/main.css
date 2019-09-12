@@ -1,0 +1,10 @@
+p[class*= 'bobrina-']{
+    background: #ff0000;
+}
+
+p[class*= 'bobrina-']:hover{
+    background: orange;
+}
+.bobrina{
+    background: #00f;
+}
