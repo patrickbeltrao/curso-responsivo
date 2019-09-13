@@ -5,10 +5,17 @@
     padding: 5px;
 }
 
-[class*="caixa-"]{
+.limpa{
+    clear: both;
+    overflow: hidden;
+    display: block;
+}
+
+[class*='caixa-']{
     width: 100%;
-    min-height: 1px
     float: left;
+    min-height: 1px;
+
 }
 
 .caixa {
