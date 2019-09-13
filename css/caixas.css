@@ -1,16 +1,24 @@
-p[class*= 'caixa-']{
+.conteudo{
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+[class*="caixa-"]{
     width: 100%;
+    min-height: 1px
     float: left;
-    min-height: 1px;
 }
 
 .caixa {
     position: relative;
     margin: 15px;
+   
 }
 
 @media screen  and (min-width: 320px){
-    .caixa-p-1 {width: 8.33333%}
+    .caixa-p-1 {width: 8.33333%; float: left;}
     .caixa-p-2 {width: 16.66666%}
     .caixa-p-3 {width: 25%}
     .caixa-p-4 {width: 33.33333%}
