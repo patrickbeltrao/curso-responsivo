@@ -11,7 +11,7 @@
     border-radius: 7px;
     box-shadow: 5px 3px 10px black;
     height: 510px;
-    -webkit-filter: grayscale(10%);
+    -webkit-filter: brightness(50%);
     filter: grayscale(100%)
 }
 
