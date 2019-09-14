@@ -1,12 +1,16 @@
 .fundoPraia{
-    color: black;
-    background-color: cyan;
+    color: #fff;
+    background-color: #708090;
+}
+
+.galeria div{
+    padding: 5px;
 }
 
 .galeria img{
-    padding: 5px;
-    background-color: rgba(0,0,0, .5);
-    height: 300px;
+    border-radius: 7px;
+    box-shadow: 5px 3px 10px black;
+    height: 510px;
     -webkit-filter: grayscale(10%);
     filter: grayscale(100%)
 }
@@ -14,7 +18,7 @@
 .galeria img:hover{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
-    -webkit-transition: all 1s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
     transition: all 1s ease-in-out;
 }
 

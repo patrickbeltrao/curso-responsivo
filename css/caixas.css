@@ -26,7 +26,7 @@
 }
 
 @media screen  and (min-width: 320px){
-    .caixa-p-1 {width: 8.33333%; float: left;}
+    .caixa-p-1 {width: 8.33333%}
     .caixa-p-2 {width: 16.66666%}
     .caixa-p-3 {width: 25%}
     .caixa-p-4 {width: 33.33333%}

@@ -16,7 +16,8 @@ $(function(){
     })
 
     $('.fancybox').fancybox({
-        openEffect  : 'none',
+        openEffect  : 'elastic',
+        openSpeed: 150,
         closeEffect : 'none',
 
         prevEffect : 'none',
