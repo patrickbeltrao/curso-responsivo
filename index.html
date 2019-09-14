@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="./css/caixas.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./bibliotecas/source/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="./bibliotecas/source/helpers/jquery.fancybox-buttons.css" />
+
 </head>
 <body>
 
@@ -73,7 +76,9 @@
             </p>
 
             <div class="caixa-g-6 caixa-m-6">
-                <img src="./images/uploads/img1.jpg" alt="galeria1" title="galeria1">
+                <a class="fancybox" href="./images/uploads/img1.jpg" data-fancybox-group="gallery" title="Praia do Caribe">
+                    <img src="./images/uploads/img1.jpg" alt="galeria1" title="galeria1">
+                </a>
             </div>
 
             <div class="caixa-g-6 caixa-m-6">
@@ -109,5 +114,7 @@
 
     <script src="./js/jquery.js"></script>
     <script src="./js/funcoes.js"></script>
+    <script src="./js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="./bibliotecas/source/helpers/jquery.fancybox-buttons.js"></script>
 </body>
 </html>
