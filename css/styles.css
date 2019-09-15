@@ -33,18 +33,87 @@ p{
 
 
 
+
+
+
 /** SEÇÃO 4  **/
 
+
+.conselhos li img{
+    float: left;
+    margin: 0 15px 0 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: #430069;
+    border: 3px solid black;
+    
+}   
+
+.conselhos li img:hover{
+    border: 2px solid #fff;
+
+}
+
+.conselhos li:hover{
+    background-color: rgba(0,0,0, .5);
+}
+
+.conselhos li{
+    padding-left: 10px 0 20px 0;
+    border-bottom: 2px solid #000;
+    padding: 3px;
+
+}
+
+#title-sec4{
+    color: #000;
+}
+
+.div-conselhos p{
+    color: #fff;
+}
+
+.conselhos h3{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin: 10px 0;
+
+}
+
+.conselhos p{
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+}
+
+.conselhos li:last-child{
+    border-bottom: none;
+}
+
+.div-sec4-1 p{
+    color: #fff;
+}
+
+
+
+
+/**  TABELAS **/
 
 .fundo-sec4{
     color: #00ffff;
     background-color: #1a66b3;
 }
 
-.fundo-sec4 h3{
+.div-sec4-1 h3{
     text-shadow: none;
     color: #000;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 table{
@@ -73,6 +142,10 @@ table tr th{
 table tr td{
     border: 1px solid rgba(0, 0, 0, 0.329);
     padding: 15px;
+}
+
+table tr td:hover{
+    background-color: rgba(0,0,0, .5);
 }
 
 table tbody tr:nth-child(2n+1){
