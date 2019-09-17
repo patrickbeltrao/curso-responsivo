@@ -199,6 +199,7 @@ table tbody tr:nth-child(2n+1){
 .fundo-sec3{
     color: #000;
     background-color: #fff;
+   
 }
 
 .fundoDestaque1{
@@ -250,7 +251,11 @@ table tbody tr:nth-child(2n+1){
 .fundo-sec2{
     color: #fff;
     background-color: #44617e;
+    min-height: 500px;
 }
+
+
+
 
 .estatisticas li{
     display: inline-block;
