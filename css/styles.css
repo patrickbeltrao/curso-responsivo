@@ -32,6 +32,94 @@ p{
 
 
 
+/** FOOTER   **/
+
+.icones{
+    float: left;
+    width: 28px;
+    height: 26px;
+    background-image: url(../images/imagens/icones.png);
+}
+
+.iconeFace{
+    background-position: 0 0;
+
+}
+
+.iconeTube{
+    background-position: 28px 0;
+    
+}
+
+.iconeTwitter{
+    background-position: 112px 0;
+    
+}
+
+.iconeHome{
+    background-position: 140px 26px;
+}
+
+.iconeHost{
+    background-position: 110px 26px;
+}
+
+
+
+footer{
+    font-size: .9em;
+
+}
+
+footer h4{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin: 20px;
+    border-bottom: 1px solid #000;
+
+}
+
+footer ul{
+    text-indent: 10px;
+
+}
+
+footer ul li{
+    text-align: left;
+    height: 40px;
+
+}
+
+footer ul li a{
+    color: #fff;
+
+}
+
+footer ul li a:hover{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
